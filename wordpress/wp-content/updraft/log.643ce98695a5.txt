@@ -1,0 +1,485 @@
+0000.001 (0) Opened log file at time: Wed, 27 Jul 2022 09:36:39 +0000 on http://localhost/site1/wordpress
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 8.0.13 (apache2handler, Windows NT DCIREODCPR26 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.13 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 74M | 76M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 271907.8 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.010 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.028 (0) Semaphore (fd, wp_options) being initialised
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.038 (0) Set semaphore last lock (fd) time to 2022-07-27 09:36:39
+0000.040 (0) Semaphore lock (fd) complete
+0000.047 (0) Backup run: resumption=0, nonce=643ce98695a5, file_nonce=643ce98695a5 begun at=1658914599 (0s ago), job type=backup
+0000.051 (0) Scheduling a resumption (1) after 300 seconds (1658914899) in case this run gets aborted
+0000.077 (0) Checking if we have a zip executable available
+0000.081 (0) Creation of backups of directories: beginning
+0000.087 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.638 (0) Total entities for the zip file: 1267 directories, 5986 files (0 skipped as non-modified), 90.1 MB
+0001.668 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.689 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.711 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.740 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.765 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.790 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.811 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 5986 files batched, 692 (692) added so far); re-opening (prior size: 0 KB)
+0010.358 (0) A useful amount of data was added after this amount of zip processing: 10.7 s (normalised: 10.7 s, rate: 2392.9 KB/s)
+0010.385 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 700 files added (on-disk size: 7774.3 KB)
+0010.432 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 800 files added (on-disk size: 7774.3 KB)
+0010.467 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 900 files added (on-disk size: 7774.3 KB)
+0010.502 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1000 files added (on-disk size: 7774.3 KB)
+0010.527 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1100 files added (on-disk size: 7774.3 KB)
+0010.556 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1200 files added (on-disk size: 7774.3 KB)
+0010.588 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1300 files added (on-disk size: 7774.3 KB)
+0010.610 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1400 files added (on-disk size: 7774.3 KB)
+0010.634 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1500 files added (on-disk size: 7774.3 KB)
+0010.689 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1600 files added (on-disk size: 7774.3 KB)
+0010.728 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.9 MB, 5986 files batched, 1001 (1693) added so far); re-opening (prior size: 7774.3 KB)
+0025.475 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1700 files added (on-disk size: 12665.3 KB)
+0025.503 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1800 files added (on-disk size: 12665.3 KB)
+0025.525 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 1900 files added (on-disk size: 12665.3 KB)
+0025.567 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2000 files added (on-disk size: 12665.3 KB)
+0025.606 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2100 files added (on-disk size: 12665.3 KB)
+0025.635 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2200 files added (on-disk size: 12665.3 KB)
+0025.658 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2300 files added (on-disk size: 12665.3 KB)
+0025.693 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2400 files added (on-disk size: 12665.3 KB)
+0025.722 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2500 files added (on-disk size: 12665.3 KB)
+0025.765 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2600 files added (on-disk size: 12665.3 KB)
+0025.807 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.9 MB, 5986 files batched, 1001 (2694) added so far); re-opening (prior size: 12665.3 KB)
+0035.895 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2700 files added (on-disk size: 15927.5 KB)
+0035.922 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2800 files added (on-disk size: 15927.5 KB)
+0035.966 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 2900 files added (on-disk size: 15927.5 KB)
+0035.996 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3000 files added (on-disk size: 15927.5 KB)
+0036.037 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3100 files added (on-disk size: 15927.5 KB)
+0036.077 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3200 files added (on-disk size: 15927.5 KB)
+0036.104 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3300 files added (on-disk size: 15927.5 KB)
+0036.134 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3400 files added (on-disk size: 15927.5 KB)
+0036.165 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3500 files added (on-disk size: 15927.5 KB)
+0036.207 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3600 files added (on-disk size: 15927.5 KB)
+0036.248 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.7 MB, 5986 files batched, 1001 (3695) added so far); re-opening (prior size: 15927.5 KB)
+0049.375 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3700 files added (on-disk size: 22808.1 KB)
+0049.419 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3800 files added (on-disk size: 22808.1 KB)
+0049.463 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 3900 files added (on-disk size: 22808.1 KB)
+0049.492 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4000 files added (on-disk size: 22808.1 KB)
+0049.535 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4100 files added (on-disk size: 22808.1 KB)
+0049.560 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4200 files added (on-disk size: 22808.1 KB)
+0049.583 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4300 files added (on-disk size: 22808.1 KB)
+0049.626 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4400 files added (on-disk size: 22808.1 KB)
+0049.669 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4500 files added (on-disk size: 22808.1 KB)
+0049.698 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4600 files added (on-disk size: 22808.1 KB)
+0049.733 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 5986 files batched, 1001 (4696) added so far); re-opening (prior size: 22808.1 KB)
+0060.524 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4700 files added (on-disk size: 24875.2 KB)
+0060.547 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4800 files added (on-disk size: 24875.2 KB)
+0060.586 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 4900 files added (on-disk size: 24875.2 KB)
+0060.628 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5000 files added (on-disk size: 24875.2 KB)
+0060.673 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5100 files added (on-disk size: 24875.2 KB)
+0060.700 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5200 files added (on-disk size: 24875.2 KB)
+0060.743 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5300 files added (on-disk size: 24875.2 KB)
+0060.767 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5400 files added (on-disk size: 24875.2 KB)
+0060.791 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5500 files added (on-disk size: 24875.2 KB)
+0060.814 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5600 files added (on-disk size: 24875.2 KB)
+0060.837 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.5 MB, 5986 files batched, 1001 (5697) added so far); re-opening (prior size: 24875.2 KB)
+0068.106 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5700 files added (on-disk size: 27948.9 KB)
+0068.142 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5800 files added (on-disk size: 27948.9 KB)
+0068.179 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.tmp: 5900 files added (on-disk size: 27948.9 KB)
+0071.051 (0) Creating zip file manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.list-temp.tmp)
+0071.099 (0) Successfully created zip file manifest (size: 498831)
+0071.402 (0) Created plugins zip (0) - 28594.5 KB in 71.3 s (401 KB/s) (sha1: 05c2fbc192af0000589f4bb6d373fe9a541a01f8, sha256: 5bd11bdcc1ad9faa2db8fe5c4989d267db63dc9be22f992daf6f6ba7c2cf564f)
+0071.407 (0) Beginning creation of dump of themes (split every: 400 MB)
+0071.763 (0) Total entities for the zip file: 216 directories, 1160 files (0 skipped as non-modified), 31.7 MB
+0071.791 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0071.821 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0071.859 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0071.882 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0071.909 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0071.943 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0071.976 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0072.003 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0072.040 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0072.082 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 1160 files batched, 999 (999) added so far); re-opening (prior size: 0 KB)
+0083.038 (0) A useful amount of data was added after this amount of zip processing: 12.4 s (normalised: 12.4 s, rate: 2070.8 KB/s)
+0083.047 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 1000 files added (on-disk size: 10276.2 KB)
+0083.082 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.tmp: 1100 files added (on-disk size: 10276.2 KB)
+0084.915 (0) Creating zip file manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.list-temp.tmp)
+0084.925 (0) Successfully created zip file manifest (size: 81465)
+0085.112 (0) Created themes zip (0) - 16184.3 KB in 13.7 s (1181.2 KB/s) (sha1: 3cd94aefe3d79a1d95f30504e405b6509870392c, sha256: eca22590883ec244af303eb7d02507c6d83d13cc45a9d214e822fc54d265f9e3)
+0085.118 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0085.120 (0) Looking for candidates to backup in: C:\xamp\htdocs\site1\wordpress/wp-content/uploads
+0085.123 (0) finding files: 2022: adding to list (1)
+0085.125 (0) finding files: elementor: adding to list (2)
+0085.127 (0) finding files: oceanwp: adding to list (3)
+0085.129 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0085.149 (0) Total entities for the zip file: 5 directories, 47 files (0 skipped as non-modified), 5.8 MB
+0085.307 (0) Creating zip file manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip.list-temp.tmp)
+0085.311 (0) Successfully created zip file manifest (size: 3265)
+0085.411 (0) Created uploads zip (0) - 5891.3 KB in 0.3 s (21116.6 KB/s) (sha1: cd279a639194895270ede8e6c42faece882229a1, sha256: 8a109695ddd3de3b4ad4b781e85c9f4d0184605b700b8d38b220308aca75a48b)
+0085.418 (0) Beginning backup of other directories found in the content directory (index: 0)
+0085.419 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0085.421 (0) Looking for candidates to backup in: C:\xamp\htdocs\site1\wordpress/wp-content
+0085.424 (0) finding files: cache: skipping: excluded by options
+0085.426 (0) finding files: index.php: adding to list (1)
+0085.427 (0) finding files: languages: adding to list (2)
+0085.429 (0) finding files: plugins: skipping: this is the plugins directory
+0085.431 (0) finding files: themes: skipping: this is the themes directory
+0085.433 (0) finding files: updraft: skipping: this is the updraft directory
+0085.435 (0) finding files: upgrade: skipping: excluded by options
+0085.437 (0) finding files: uploads: skipping: this is the uploads directory
+0085.485 (0) Total entities for the zip file: 3 directories, 146 files (0 skipped as non-modified), 5.3 MB
+0085.531 (0) Zip: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0086.535 (0) Creating zip file manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip.list-temp.tmp)
+0086.541 (0) Successfully created zip file manifest (size: 9849)
+0086.567 (0) Created others zip (0) - 1528.2 KB in 1.1 s (1358 KB/s) (sha1: 72db7596d9e0e69afc3b5acf880175360578848c, sha256: 5c4b25c31c6e7e4d92bf4113ca28481b47ba1079de2b0355c79dd227da25a25c)
+0086.578 (0) Saving backup status to database (elements: 8)
+0086.583 (0) Beginning creation of database dump (WordPress DB)
+0086.586 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0086.594 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0086.797 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1299 bytes total)
+0086.800 (0) Binary mysqldump: error (code: 2)
+0086.894 (0) Table wp_options: Total expected rows (via COUNT): 324
+0086.896 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0086.999 (0) Table wp_options: Rows added in this batch (next record: 975): 320 (uncompressed bytes in this segment=2203862) in 0.13 seconds
+0087.014 (0) Table wp_options: finishing file(s) (2, 363.7 KB)
+0087.024 (0) Table wp_users: Total expected rows (via COUNT): 1
+0087.026 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.032 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1385) in 0.01 seconds
+0087.040 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0087.054 (0) Table wp_usermeta: Total expected rows (via COUNT): 27
+0087.056 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.061 (0) Table wp_usermeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=5502) in 0.01 seconds
+0087.071 (0) Table wp_usermeta: finishing file(s) (2, 2.3 KB)
+0087.087 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0087.091 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.01 seconds
+0087.104 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0087.116 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0087.118 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.124 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2202) in 0.01 seconds
+0087.133 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0087.147 (0) Table wp_links: Total expected rows (via COUNT): 0
+0087.152 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0087.162 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0087.183 (0) Table wp_postmeta: Total expected rows (via COUNT): 571
+0087.186 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.205 (0) Table wp_postmeta: Rows added in this batch (next record: 690): 571 (uncompressed bytes in this segment=248057) in 0.04 seconds
+0087.219 (0) Table wp_postmeta: finishing file(s) (2, 12.3 KB)
+0087.234 (0) Table wp_posts: Total expected rows (via COUNT): 114
+0087.236 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.245 (0) Table wp_posts: Rows added in this batch (next record: 127): 114 (uncompressed bytes in this segment=122259) in 0.02 seconds
+0087.259 (0) Table wp_posts: finishing file(s) (2, 12.8 KB)
+0087.269 (0) Table wp_term_relationships: Total expected rows (approximate): 6
+0087.274 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=756) in 0.01 seconds
+0087.284 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0087.297 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0087.300 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.312 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1001) in 0.02 seconds
+0087.333 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0087.351 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0087.356 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0087.371 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0087.381 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0087.384 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.392 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=840) in 0.01 seconds
+0087.402 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0087.417 (0) Table wp_e_events: Total expected rows (via COUNT): 1
+0087.420 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.423 (0) Table wp_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=795) in 0.01 seconds
+0087.434 (0) Table wp_e_events: finishing file(s) (2, 0.5 KB)
+0087.453 (0) Table wp_frm_fields: Total expected rows (via COUNT): 5
+0087.455 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.458 (0) Table wp_frm_fields: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=5990) in 0.01 seconds
+0087.470 (0) Table wp_frm_fields: finishing file(s) (2, 1.1 KB)
+0087.481 (0) Table wp_frm_forms: Total expected rows (via COUNT): 1
+0087.483 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.485 (0) Table wp_frm_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2480) in 0.01 seconds
+0087.497 (0) Table wp_frm_forms: finishing file(s) (2, 1.1 KB)
+0087.513 (0) Table wp_frm_item_metas: Total expected rows (via COUNT): 0
+0087.519 (0) Table wp_frm_item_metas: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.01 seconds
+0087.532 (0) Table wp_frm_item_metas: finishing file(s) (2, 0.4 KB)
+0087.549 (0) Table wp_frm_items: Total expected rows (via COUNT): 0
+0087.552 (0) Table wp_frm_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1103) in 0.01 seconds
+0087.562 (0) Table wp_frm_items: finishing file(s) (2, 0.5 KB)
+0087.576 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 0
+0087.579 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.01 seconds
+0087.589 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0087.602 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 1
+0087.605 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.610 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10000): 1 (uncompressed bytes in this segment=1209) in 0.01 seconds
+0087.619 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0087.634 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0087.639 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.01 seconds
+0087.648 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0087.660 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0087.662 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.666 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=20920) in 0.01 seconds
+0087.674 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 3.9 KB)
+0087.691 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0087.697 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=726) in 0.01 seconds
+0087.707 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0087.726 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 2
+0087.728 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.735 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=31048) in 0.02 seconds
+0087.748 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 2.8 KB)
+0087.763 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 66
+0087.765 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.772 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 67): 66 (uncompressed bytes in this segment=41811) in 0.02 seconds
+0087.786 (0) Table wp_yoast_indexable: finishing file(s) (2, 6.1 KB)
+0087.796 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 17
+0087.802 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 17 (uncompressed bytes in this segment=1061) in 0.01 seconds
+0087.819 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0087.832 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 23
+0087.834 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.839 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1232) in 0.01 seconds
+0087.852 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0087.867 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0087.871 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0087.879 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0087.893 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 6
+0087.896 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0087.900 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1783) in 0.01 seconds
+0087.912 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.7 KB)
+0087.914 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xamp\htdocs\site1\wordpress/wp-content/updraft/backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz (line 1884, C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\backup.php)
+0087.917 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_options.table.tmpr976.gz (1/28/fopen): adding to final database dump
+0087.930 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_options.table.gz (2/28/fopen): adding to final database dump
+0087.933 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_users.table.tmpr2.gz (3/28/fopen): adding to final database dump
+0087.935 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_users.table.gz (4/28/fopen): adding to final database dump
+0087.938 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_usermeta.table.tmpr28.gz (5/28/fopen): adding to final database dump
+0087.940 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_usermeta.table.gz (6/28/fopen): adding to final database dump
+0087.941 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_commentmeta.table.tmpr0.gz (7/28/fopen): adding to final database dump
+0087.943 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_commentmeta.table.gz (8/28/fopen): adding to final database dump
+0087.945 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_comments.table.tmpr2.gz (9/28/fopen): adding to final database dump
+0087.947 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_comments.table.gz (10/28/fopen): adding to final database dump
+0087.949 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_links.table.tmpr0.gz (11/28/fopen): adding to final database dump
+0087.951 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_links.table.gz (12/28/fopen): adding to final database dump
+0087.954 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_postmeta.table.tmpr691.gz (13/28/fopen): adding to final database dump
+0087.957 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_postmeta.table.gz (14/28/fopen): adding to final database dump
+0087.959 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_posts.table.tmpr128.gz (15/28/fopen): adding to final database dump
+0087.961 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_posts.table.gz (16/28/fopen): adding to final database dump
+0087.964 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_term_relationships.table.tmpr100001.gz (17/28/fopen): adding to final database dump
+0087.966 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_term_relationships.table.gz (18/28/fopen): adding to final database dump
+0087.968 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_term_taxonomy.table.tmpr5.gz (19/28/fopen): adding to final database dump
+0087.970 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_term_taxonomy.table.gz (20/28/fopen): adding to final database dump
+0087.972 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_termmeta.table.tmpr0.gz (21/28/fopen): adding to final database dump
+0087.974 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_termmeta.table.gz (22/28/fopen): adding to final database dump
+0087.977 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_terms.table.tmpr5.gz (23/28/fopen): adding to final database dump
+0087.979 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_terms.table.gz (24/28/fopen): adding to final database dump
+0087.981 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_e_events.table.tmpr2.gz (25/28/fopen): adding to final database dump
+0087.983 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_e_events.table.gz (26/28/fopen): adding to final database dump
+0087.985 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_fields.table.tmpr6.gz (27/28/fopen): adding to final database dump
+0087.987 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_fields.table.gz (28/28/fopen): adding to final database dump
+0087.989 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_forms.table.tmpr2.gz (29/28/fopen): adding to final database dump
+0087.992 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_forms.table.gz (30/28/fopen): adding to final database dump
+0087.994 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_item_metas.table.tmpr0.gz (31/28/fopen): adding to final database dump
+0087.996 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_item_metas.table.gz (32/28/fopen): adding to final database dump
+0087.998 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_items.table.tmpr0.gz (33/28/fopen): adding to final database dump
+0088.000 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_frm_items.table.gz (34/28/fopen): adding to final database dump
+0088.002 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_image_storage.table.tmpr0.gz (35/28/fopen): adding to final database dump
+0088.005 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_image_storage.table.gz (36/28/fopen): adding to final database dump
+0088.007 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_section_storage.table.tmpr10001.gz (37/28/fopen): adding to final database dump
+0088.009 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_section_storage.table.gz (38/28/fopen): adding to final database dump
+0088.011 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (39/28/fopen): adding to final database dump
+0088.013 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_generators.table.gz (40/28/fopen): adding to final database dump
+0088.015 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (41/28/fopen): adding to final database dump
+0088.018 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_sliders.table.gz (42/28/fopen): adding to final database dump
+0088.021 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (43/28/fopen): adding to final database dump
+0088.023 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (44/28/fopen): adding to final database dump
+0088.024 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_slides.table.tmpr3.gz (45/28/fopen): adding to final database dump
+0088.026 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_nextend2_smartslider3_slides.table.gz (46/28/fopen): adding to final database dump
+0088.028 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_indexable.table.tmpr68.gz (47/28/fopen): adding to final database dump
+0088.031 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_indexable.table.gz (48/28/fopen): adding to final database dump
+0088.033 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (49/28/fopen): adding to final database dump
+0088.035 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_indexable_hierarchy.table.gz (50/28/fopen): adding to final database dump
+0088.038 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_migrations.table.tmpr24.gz (51/28/fopen): adding to final database dump
+0088.039 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_migrations.table.gz (52/28/fopen): adding to final database dump
+0088.041 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_primary_term.table.tmpr0.gz (53/28/fopen): adding to final database dump
+0088.043 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_primary_term.table.gz (54/28/fopen): adding to final database dump
+0088.045 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_seo_links.table.tmpr7.gz (55/28/fopen): adding to final database dump
+0088.048 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db-table-wp_yoast_seo_links.table.gz (56/28/fopen): adding to final database dump
+0088.075 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: finished writing out complete database file (415.2 KB)
+0088.096 (0) Total database tables backed up: 28 (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz, size: 425296, sha1: 90801f81642bccbcf73a84b3fcddd08dafe7dd64, sha256: 8da6f9f534bc0c8afb81e996caa29ae0b797971f1217e4a5497b7280e6093a17)
+0088.104 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0088.105 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0088.107 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0088.109 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0088.110 (0) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0088.112 (0) Saving backup history. Total backup size: 51.4 MB
+0088.116 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0088.123 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0088.127 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c833f3eb5b8cae89d9c7bd1d15502d1a)
+0103.598 (0) Google Drive: creating path: /UpdraftPlus
+0106.361 (0) Google Drive: quota usage: used=174.5 MB, total=15360 MB, available=15185.5 MB
+0106.364 (0) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0113.249 (0) Googledrive chunked upload: 3.6 % uploaded (1048576)
+0115.698 (0) Googledrive chunked upload: 7.2 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 76.6 / 86)
+0126.759 (0) Googledrive chunked upload: 14.3 % uploaded (4194304)
+0141.333 (0) Googledrive chunked upload: 21.5 % uploaded (6291456)
+0144.717 (0) Googledrive chunked upload: 28.6 % uploaded (8388608)
+0157.888 (0) Googledrive chunked upload: 35.8 % uploaded (10485760)
+0161.007 (0) Googledrive chunked upload: 43 % uploaded (12582912)
+0165.314 (0) Googledrive chunked upload: 50.1 % uploaded (14680064)
+0185.731 (0) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): OpenSSL SSL_read: Connection was reset, errno 10054 (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0541.038 (1) Opened log file at time: Wed, 27 Jul 2022 09:45:40 +0000 on http://localhost/site1/wordpress
+0541.041 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 8.0.13 (apache2handler, Windows NT DCIREODCPR26 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.13 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 65.9M | 16M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0541.043 (1) Free space on disk containing Updraft's temporary directory: 271799.8 MB
+0541.046 (1) Requesting backup semaphore lock (643ce98695a5)
+0541.050 (1) [Debug] Lock option (updraft_lock_643ce98695a5, wp_options) was created in the database
+0541.051 (1) [Info] Lock (updraft_lock_643ce98695a5, wp_options) acquired after initialising the database
+0541.055 (1) Backup run: resumption=1, nonce=643ce98695a5, file_nonce=643ce98695a5 begun at=1658914599 (541s ago), job type=backup, previous check-in=165.31s
+0541.058 (1) Scheduling a resumption (2) after 300 seconds (1658915440) in case this run gets aborted
+0541.072 (1) Checking if we have a zip executable available
+0541.075 (1) Creation of backups of directories: already finished
+0541.077 (1) Saving backup status to database (elements: 8)
+0541.082 (1) Database dump (WordPress DB): Creation was completed already
+0541.083 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0541.089 (1) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0541.091 (1) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0541.092 (1) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0541.094 (1) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip: others: This file has not yet been successfully uploaded: will queue
+0541.095 (1) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0541.097 (1) Saving backup history. Total backup size: 51.4 MB
+0541.100 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0541.102 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0541.104 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c833f3eb5b8cae89d9c7bd1d15502d1a)
+0556.832 (1) Google Drive: quota usage: used=174.5 MB, total=15360 MB, available=15185.5 MB
+0556.837 (1) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0579.900 (1) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0602.923 (1) Googledrive chunked upload: 3.6 % uploaded (1048576)
+0613.238 (1) Googledrive chunked upload: 7.2 % uploaded (2097152)
+0616.368 (1) Googledrive chunked upload: 10.7 % uploaded (3145728)
+0618.234 (1) Googledrive chunked upload: 14.3 % uploaded (4194304 - increasing chunk size to 2048 KB - memory usage: 69.3 / 20)
+0621.091 (1) Googledrive chunked upload: 21.5 % uploaded (6291456)
+0630.435 (1) Googledrive chunked upload: 28.6 % uploaded (8388608)
+0645.456 (1) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Connection timed out after 15012 milliseconds (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0645.461 (1) Google Drive: Upload exception (UDP_Google_IO_Exception): Connection timed out after 15012 milliseconds (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0645.463 (1) An error condition has occurred for the first time during this job
+0649.148 (1) Google Drive: quota usage: used=174.5 MB, total=15360 MB, available=15185.5 MB
+0649.152 (1) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0666.807 (1) Googledrive chunked upload: 6.3 % uploaded (1048576)
+0676.807 (1) Googledrive chunked upload: 12.7 % uploaded (2097152)
+0679.352 (1) Googledrive chunked upload: 19 % uploaded (3145728)
+0692.453 (1) Googledrive chunked upload: 25.3 % uploaded (4194304)
+0703.100 (1) Googledrive chunked upload: 31.6 % uploaded (5242880)
+0718.354 (1) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Operation timed out after 15015 milliseconds with 0 out of 0 bytes received (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0730.011 (1) Googledrive chunked upload: 6.3 % uploaded (1048576)
+0743.916 (1) Googledrive chunked upload: 12.7 % uploaded (2097152)
+0759.159 (1) Google Drive: ERROR: upload exception (UDP_Google_IO_Exception): Connection timed out after 15005 milliseconds (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0759.165 (1) Google Drive: Upload exception (UDP_Google_IO_Exception): Connection timed out after 15005 milliseconds (line: 117, file: C:\xamp\htdocs\site1\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0774.502 (1) Google Drive: quota usage: used=174.5 MB, total=15360 MB, available=15185.5 MB
+0774.504 (1) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0793.367 (1) Googledrive chunked upload: 17.4 % uploaded (1048576)
+0796.256 (1) The scheduled resumption is within 45 seconds - will reschedule
+0796.261 (1) Rescheduling resumption 2: moving to 345 seconds from now (1658915740)
+0796.268 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0796.271 (1) Googledrive chunked upload: 34.8 % uploaded (2097152)
+0798.158 (1) Googledrive chunked upload: 52.1 % uploaded (3145728 - increasing chunk size to 2048 KB - memory usage: 70.3 / 24)
+0814.673 (1) Googledrive chunked upload: 86.9 % uploaded (5242880)
+0830.108 (1) Googledrive chunked upload: 100 % uploaded (5242880)
+0830.115 (1) Google Drive: OK: Archive backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip uploaded in 55.61 seconds
+0830.118 (1) Recording as successfully uploaded: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip
+0830.124 (1) Deleting local file: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip: OK
+0830.127 (1) Deleting zip manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip.list.tmp)
+0831.685 (1) Google Drive: quota usage: used=180.2 MB, total=15360 MB, available=15179.8 MB
+0831.688 (1) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0854.733 (1) Googledrive chunked upload: 67 % uploaded (1048576)
+0865.301 (1) The time we have been running (324.3) is approaching the resumption interval (345) - increasing resumption interval to 355
+0865.305 (1) Googledrive chunked upload: 100 % uploaded (1048576)
+0865.312 (1) Google Drive: OK: Archive backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip uploaded in 33.62 seconds
+0865.315 (1) Recording as successfully uploaded: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip
+0865.321 (1) Deleting local file: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip: OK
+0865.325 (1) Deleting zip manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip.list.tmp)
+0866.082 (1) Google Drive: quota usage: used=181.7 MB, total=15360 MB, available=15178.3 MB
+0866.085 (1) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+0887.438 (1) The time we have been running (346.4) is approaching the resumption interval (355) - increasing resumption interval to 377
+0887.443 (1) Googledrive chunked upload: 100 % uploaded
+0887.450 (1) Google Drive: OK: Archive backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz uploaded in 21.36 seconds
+0887.453 (1) Recording as successfully uploaded: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz
+0887.458 (1) Deleting local file: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: OK
+0887.463 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0887.466 (1) Number of backup sets in history: 1; groups (db): 1
+0887.468 (1) Examining (for databases) backup set with group_id=0, nonce=643ce98695a5, datestamp=1658914599 (Jul 27 2022 09:36:39)
+0887.470 (1) This backup set is the backup set just made, so will not be deleted.
+0887.470 (1) Number of backup sets in history: 1; groups (files): 1
+0887.472 (1) Examining (for files) backup set with nonce=643ce98695a5, datestamp=1658914599 (Jul 27 2022 09:36:39)
+0887.472 (1) This backup set is the backup set just made, so will not be deleted.
+0887.474 (1) This backup set is the backup set just made, so will not be deleted.
+0887.474 (1) This backup set is the backup set just made, so will not be deleted.
+0887.474 (1) This backup set is the backup set just made, so will not be deleted.
+0887.474 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0887.476 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0887.480 (1) Resume backup (643ce98695a5, 1): finish run
+0887.484 (1) [Info] Lock option (updraft_lock_643ce98695a5, wp_options) released
+0887.490 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0887.494 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+1147.139 (2) Opened log file at time: Wed, 27 Jul 2022 09:55:46 +0000 on http://localhost/site1/wordpress
+1147.142 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 8.0.13 (apache2handler, Windows NT DCIREODCPR26 10.0 build 22000 (Windows 10) AMD64) MySQL: 10.4.22-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.13 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 65.6M | 6M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1147.144 (2) Free space on disk containing Updraft's temporary directory: 271763.2 MB
+1147.152 (2) Requesting backup semaphore lock (643ce98695a5)
+1147.157 (2) [Info] Lock (updraft_lock_643ce98695a5, wp_options) acquired
+1147.161 (2) Backup run: resumption=2, nonce=643ce98695a5, file_nonce=643ce98695a5 begun at=1658914599 (1147s ago), job type=backup, previous check-in=346.39s
+1147.166 (2) Scheduling a resumption (3) after 377 seconds (1658916123) in case this run gets aborted
+1147.223 (2) Checking if we have a zip executable available
+1147.226 (2) Creation of backups of directories: already finished
+1147.228 (2) Saving backup status to database (elements: 8)
+1147.240 (2) Database dump (WordPress DB): Creation was completed already
+1147.243 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1147.249 (2) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1147.251 (2) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1147.253 (2) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-uploads.zip: uploads: This file has already been successfully uploaded
+1147.255 (2) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-others.zip: others: This file has already been successfully uploaded
+1147.257 (2) backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-db.gz: db: This file has already been successfully uploaded
+1147.259 (2) Saving backup history. Total backup size: Unknown
+1147.267 (2) Requesting upload of the files that have not yet been successfully uploaded (2)
+1147.271 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1147.274 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-c833f3eb5b8cae89d9c7bd1d15502d1a)
+1159.991 (2) Google Drive: quota usage: used=182.1 MB, total=15360 MB, available=15177.9 MB
+1159.995 (2) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+1175.850 (2) Googledrive chunked upload: 3.6 % uploaded (1048576)
+1177.604 (2) Googledrive chunked upload: 7.2 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 68.1 / 6)
+1181.304 (2) Googledrive chunked upload: 14.3 % uploaded (4194304)
+1186.877 (2) Googledrive chunked upload: 21.5 % uploaded (6291456)
+1191.507 (2) Googledrive chunked upload: 28.6 % uploaded (8388608)
+1204.743 (2) Googledrive chunked upload: 35.8 % uploaded (10485760)
+1208.795 (2) Googledrive chunked upload: 43 % uploaded (12582912)
+1217.309 (2) Googledrive chunked upload: 50.1 % uploaded (14680064)
+1228.892 (2) Googledrive chunked upload: 57.3 % uploaded (16777216)
+1235.546 (2) Googledrive chunked upload: 64.5 % uploaded (18874368)
+1246.577 (2) Googledrive chunked upload: 71.6 % uploaded (20971520)
+1260.725 (2) Googledrive chunked upload: 78.8 % uploaded (23068672)
+1272.577 (2) Googledrive chunked upload: 85.9 % uploaded (25165824)
+1278.485 (2) Googledrive chunked upload: 93.1 % uploaded (27262976)
+1290.496 (2) Googledrive chunked upload: 100 % uploaded (27262976)
+1290.504 (2) Google Drive: OK: Archive backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip uploaded in 130.51 seconds
+1290.506 (2) Recording as successfully uploaded: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip
+1290.512 (2) Deleting local file: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip: OK
+1290.514 (2) Deleting zip manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-plugins.zip.list.tmp)
+1292.363 (2) Google Drive: quota usage: used=210 MB, total=15360 MB, available=15150 MB
+1292.366 (2) Google Drive: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: Attempting to upload to Google Drive (into folder id: 1sDdrTHIPbu-zduxSPmJMd0ElEC88hlaF)
+1297.286 (2) Googledrive chunked upload: 6.3 % uploaded (1048576)
+1299.641 (2) Googledrive chunked upload: 12.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 68.2 / 6)
+1314.179 (2) Googledrive chunked upload: 25.3 % uploaded (4194304)
+1317.975 (2) Googledrive chunked upload: 38 % uploaded (6291456)
+1320.550 (2) Googledrive chunked upload: 50.6 % uploaded (8388608)
+1326.638 (2) Googledrive chunked upload: 63.3 % uploaded (10485760)
+1329.769 (2) Googledrive chunked upload: 75.9 % uploaded (12582912)
+1333.363 (2) Googledrive chunked upload: 88.6 % uploaded (14680064)
+1337.164 (2) Googledrive chunked upload: 100 % uploaded (14680064)
+1337.172 (2) Google Drive: OK: Archive backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip uploaded in 44.8 seconds
+1337.175 (2) Recording as successfully uploaded: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip
+1337.181 (2) Deleting local file: backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip: OK
+1337.184 (2) Deleting zip manifest (backup_2022-07-27-1136_Orange_Digital_Center_643ce98695a5-themes.zip.list.tmp)
+1337.191 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1337.194 (2) Number of backup sets in history: 1; groups (db): 1
+1337.196 (2) Examining (for databases) backup set with group_id=0, nonce=643ce98695a5, datestamp=1658914599 (Jul 27 2022 09:36:39)
+1337.198 (2) This backup set is the backup set just made, so will not be deleted.
+1337.198 (2) Number of backup sets in history: 1; groups (files): 1
+1337.201 (2) Examining (for files) backup set with nonce=643ce98695a5, datestamp=1658914599 (Jul 27 2022 09:36:39)
+1337.201 (2) This backup set is the backup set just made, so will not be deleted.
+1337.203 (2) This backup set is the backup set just made, so will not be deleted.
+1337.203 (2) This backup set is the backup set just made, so will not be deleted.
+1337.203 (2) This backup set is the backup set just made, so will not be deleted.
+1337.203 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1337.205 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1337.209 (2) Resume backup (643ce98695a5, 2): finish run
+1337.215 (2) [Info] Lock option (updraft_lock_643ce98695a5, wp_options) released
+1337.219 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+1337.225 (2) The backup apparently succeeded and is now complete
+1337.228 (2) Fetching RSS news feed
+1337.998 (2) Fetched RSS news feed; result is a: SimplePie
+1338.078 (2) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: diarr...
+1338.141 (2) An error occurred when sending a backup report email and/or backup file(s) via email (wp_mail_failed): Invalid address:  (From): wordpress@localhost
+1338.144 (2) La sauvegarde a apparemment réussi et est maintenant terminée
